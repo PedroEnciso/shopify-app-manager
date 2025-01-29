@@ -40,7 +40,7 @@ export default function StorePage({ params }: { params: { id: string } }) {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <StaffMembers storeId={store.id} initialStaff={store.staff} />
+        <StaffMembers initialStaff={store.staff} />
         <StoreApps apps={store.apps} />
       </div>
     </div>
